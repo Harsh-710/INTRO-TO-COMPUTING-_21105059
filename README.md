@@ -1,1 +1,79 @@
 # Assignment-1-Python-
+
+#QUES 1
+
+num1 = int(input("enter first number :"))
+num2 = int(input("enter second number  :"))
+num3 = int(input("enter third number :"))
+avg = (num1 + num2 + num3)/3
+print(avg)
+
+           
+#QUES 2
+
+print("All values are to be entered in dollars")
+gross_income = float(input("enter your gross family income (to nearest penny)  :"))
+dependents = int(input("enter number of dependent family memebers :"))
+
+std_deduction = 10000
+dep_deduction = 3000
+tax_rate = 0.2
+
+taxable_income = (gross_income - std_deduction - (dependents*dep_deduction))
+tax = taxable_income*tax_rate
+
+print("taxable income",taxable_income)
+print("your tax comes out to be", tax)
+
+
+#QUES 3
+
+print("student = [sid, name, gender, course, cgpa]")
+
+sid = int(input("enter your sid :"))
+name = str(input("enter your name :"))
+gender = str(input("gender (M,F,U) :"))
+course = str(input("course name :"))
+cgpa = float(input("enter your cgpa :"))
+
+student = [sid, name, gender, course, cgpa]
+
+print("student info :", student) 
+
+
+#QUES 4
+
+a = int(input("enter marks of student 1 :"))
+b = int(input("enter marks of student 2 :"))
+c = int(input("enter marks of student 3 :"))
+d = int(input("enter marks of student 4 :"))
+e = int(input("enter marks of student 5 :"))
+
+marks = [a, b, c, d, e]
+
+print("marks of the 5 students are :", marks)
+
+#sorting the list in ascending and descending order
+
+asc = marks.sort()
+print("marks in ascending order :", marks)
+
+desc = marks.sort(reverse = True)
+print("marks in decsending order :", marks) 
+
+
+#QUES 5
+
+color = ['red', 'green', 'white', 'black', 'pink', 'yellow']
+print("provided list of color is :", color)
+
+#QUES 5A
+
+color.pop(3)
+print("modified list of color is:", color)
+
+#QUES 5B
+
+color2 = ['red', 'green', 'white', 'black', 'pink', 'yellow']
+color2[3:5] = ['purple']
+print("modified list of color id :", color2)
