@@ -1,0 +1,99 @@
+# QUES 1
+
+print("Ques 1")
+input_string = "Python is a case sensitive language"
+
+#length of the input string
+length = len(input_string)
+print("(a) Length of the input string is: ", length) 
+
+#reversing the order of the string
+string = input_string[::-1] 
+print("(b) The reversed string is: ", string)
+         
+#slicing and printing the input string
+sliced_string = input_string[10:26] 
+print("(c) sliced string is: ", sliced_string)
+
+#replacing substring
+new_string = input_string.replace("a case sensitive","object oriented")
+print("(d) The new replaced string is: ", new_string)
+
+#finding index of a substring
+ind = input_string.index('a')
+print("(e) The index of 'a'is: ", ind)                           
+
+#removing white spaces from input string
+rem = input_string.replace(' ','')
+print("(f) New string :", rem)
+
+
+# QUES 2
+print('Ques 2')
+
+#taking input from user
+name = str(input("enter your name here: "))
+sid = int(input("enter your SID here: "))
+dept_name = str(input("enter your department name here: "))
+cgpa = float(input("enter your CGPA here: "))
+
+#output
+print("Hey, %s here! \nMy SID is %d. \nI am from %s department and my CGPA is %f ." %(name, sid, dept_name, cgpa), end='\n')
+
+
+#QUES 3
+print('Ques 3')
+
+a = 56
+b = 10
+
+print("a & b =", (a&b))
+print("a | b =", (a|b))
+print("a ^ b =", (a^b))
+print("Left shift both a and b with 2 bits : a=", a<<2, "b=", b<<2)
+print("Right and left shift a and b with 2 and 4 bits respectively : a=", a>>2, "b=", b>>4)
+
+
+# QUES 4
+print('Ques 4')
+
+# taking input from the user
+a = int(input("enter first number :"))
+b = int(input("enter second number :"))
+c = int(input("enter third number :"))
+
+if a>=b and a>=c:
+    greatest_num = a
+elif b>=c:
+    greatest_num = b
+else : greatest_num = c
+
+print("the greatest number is:", greatest_num) 
+
+
+# QUES 5
+print('Ques 5')
+
+# taking input from the user
+string = str(input("Type something: "))
+
+# applying conditions
+if "name" in string:
+    print("yes")
+else : print("no")
+
+print(end='\n') 
+            
+
+# QUES 6
+print('Ques 6')
+
+# taking input lengths from user
+len1 = int(input("enter the first length here :"))
+len2 = int(input("enter the second length here :"))
+len3 = int(input("enter the third length here :"))
+
+# applying condition
+if (len1 + len2)>len3 and (len2 + len3)>len1 and (len1 + len3)>len2:
+    print("Yes")
+else : print("No")
