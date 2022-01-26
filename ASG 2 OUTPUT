@@ -1,0 +1,76 @@
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:\Harsh\python\asg2.py\code\ques1.py ================
+Ques 1
+(a) Length of the input string is:  35
+(b) The reversed string is:  egaugnal evitisnes esac a si nohtyP
+(c) sliced string is:  a case sensitive
+(d) The new replaced string is:  Python is object oriented language
+(e) The index of 'a'is:  10
+(f) New string : Pythonisacasesensitivelanguage
+
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:\Harsh\python\asg2.py\code\ques 2.py ===============
+Ques 2
+enter your name here: Harsh
+enter your SID here: 21105059
+enter your department name here: ECE
+enter your CGPA here: 9.9
+Hey, Harsh here! 
+My SID is 21105059. 
+I am from ECE department and my CGPA is 9.900000 .
+
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:/Harsh/python/asg2.py/code/ques 3.py ===============
+Ques 3
+a & b = 8
+a | b = 58
+a ^ b = 50
+Left shift both a and b with 2 bits : a= 224 b= 40
+Right and left shift a and b with 2 and 4 bits respectively : a= 14 b= 0
+
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:\Harsh\python\asg2.py\code\ques4.py ================
+Ques 4
+enter first number :5
+enter second number :8
+enter third number :6
+the greatest number is: 8
+
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:/Harsh/python/asg2.py/code/ques 5.py ===============
+Ques 5
+Type something: what is your name?
+yes
+
+Type something: who are you
+no
+
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+================ RESTART: F:/Harsh/python/asg2.py/code/ques 6.py ===============
+Ques 6
+enter the first length here :5
+enter the second length here :3
+enter the third length here :6
+Yes
+
+enter the first length here :5
+enter the second length here :4
+enter the third length here :9
+NO
