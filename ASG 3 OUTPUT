@@ -1,0 +1,48 @@
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========= RESTART: F:\harsh 2\solved ass\python\asg3.py\CODE\ques 1.py =========
+Question 1
+Enter your input string here- gogogogog
+Total occurrences
+g-5
+o-4
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+============ RESTART: F:/harsh 2/solved ass/python/asg3.py/ques 1.py ===========
+Question 1
+Enter your input string here- hello hi hello what how how hi
+Total occurrences
+hello-2
+hi-2
+what-1
+how-2
+
+###########################################################################################################################################
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========= RESTART: F:/harsh 2/solved ass/python/asg3.py/CODE/ques 2.py =========
+Question 2
+Please enter year between 1800-2025
+Enter day- 15
+Enter month- 6
+Enter year- 2013
+Next date is: 16/6/2013
+
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========= RESTART: F:/harsh 2/solved ass/python/asg3.py/CODE/ques 2.py =========
+Question 2
+Please enter year between 1800-2025
+Enter day- 0
+Enter month- 3
+Enter year- 2015
+Please enter a valid date
+
+#############################################################################################################################################
+
