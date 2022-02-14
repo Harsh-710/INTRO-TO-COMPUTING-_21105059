@@ -122,12 +122,163 @@ print(list2)
 
 ##############################################################################################################
 
+#Question 4
+print("Question 4")
 
+grade = int(input('Enter Grade Points- '))
 
+dict={10:{'grade_inp':'A+','remarks':'Outstanding'},
+           9:{'grade_inp':'A','remarks':'Excellent'},
+           8:{'grade_inp':'B+','remarks':'Very Good'},
+           7:{'grade_inp':'B','remarks':'Good'},
+           6:{'grade_inp':'C+','remarks':'Average'},
+           5:{'grade_inp':'C','remarks':'Below Average'},
+           4:{'grade_inp':'D','remarks':'Poor'}}
+if 3<grade<11:
+    for key in dict.keys():
+        if key==grade:
+            value = dict[key]
+            print(f"Your Grade is {value['grade_inp']} and {value['remarks']} performance ")
+        else:
+            continue
+else:
+    print('Error!')
 
+#######################################################################################################################
 
+# Question 5
+print("Question 5")
 
+# Making the pattern
+a = "ABCDEFGHIJK"
+a1 = a.rstrip("JK")
+a2 = a1.rstrip("HI")
+a3 = a2.rstrip("FG")
+a4 = a3.rstrip("DE")
+a5 = a4.rstrip("BC")
 
+# Printing the pattern
+print(" "*1, a)
+print(" "*2, a1)
+print(" "*3, a2)
+print(" "*4, a3)
+print(" "*5, a4)
+print(" "*6, a5)
 
+#######################################################################################################
 
-    
+# Question 6
+print("Question 6")
+
+condition = True
+
+# Defining dictionary to store the values
+Dictionary = {}
+prompt = "y"
+while condition:
+    if prompt.lower()=="y":
+        SID = int(input("Please Enter SID of Student- "))
+        name = input("Please enter the name of the Student- ")
+        Dictionary[SID] = name
+        prompt = input("If you want to enter more details press Y/N- ")
+        condition = True
+
+    else:
+        condition = False
+
+print("Part a")
+for key,value in Dictionary.items():
+    print(f"{key} is {value}")
+print("")
+
+print("Part b")
+Val_sort_dict = sorted(Dictionary.values())
+print(f"value sorted dictionary is {Val_sort_dict}")
+print("")
+
+print("Part c")
+Key_sort_dict = sorted(Dictionary.keys())
+print(f"Keys sorted dictionary is {Key_sort_dict}")
+print("")
+
+print("Part D")
+SID_tbf = int(input("Please enter the student's SID whose detail you need- "))
+if SID_tbf in Dictionary.keys():
+    print(f"Name of the required student is {Dictionary[SID_tbf]}")
+else:
+    print("The SID is not present in the given Data")
+print("")
+
+##############################################################################################################
+
+# Question 7
+print("Question 7")
+
+number = int(input("Total elements of Fibonacci sequence that you want(must be greater than 1)- "))
+
+#using the formula of the sum of previous two terms is equal to the present term.
+a_n1 = 1
+a_n2 = 0
+n = 0
+#initializing sum with first two terms
+sum = a_n1+a_n2
+
+#printing the initial two terms as the recursion is not valid on them
+print(f"Fibonnaci sequence with {number} terms")
+print(a_n2)
+print(a_n1)
+
+#Printing the remaining fibonnaci terms
+while n<number-2:
+    a_n = a_n2+a_n1
+    a_n2 = a_n1
+    a_n1 = a_n
+    print(a_n)
+    n += 1
+    sum += a_n
+average = sum/number
+#printing the program end prompt
+print(f"Average of total {number} terms of sequence is {average}")
+print("END")
+
+################################################################################################################
+
+# Question 8
+print("Question 8")
+
+Set1 = {1, 2, 3, 4, 5}
+Set2 = {2, 4, 6, 8}
+Set3 = {1, 5, 9, 13, 17}
+
+#Finding symmetric difference of both the sets
+print("Part a")
+set_notboth = Set1^Set2
+print(f"set with elements not common in both is {set_notboth}")
+
+#Finding symmetric difference of all sets
+print("Part b")
+set_onlyinone = Set1^Set2^Set3
+print(f"Set of elements that is only present in one set is {set_onlyinone}")
+
+#Finding elements that is common in any two sets
+print("Part C")
+set_onlyintwo = (Set1|Set2|Set3)- (Set1^Set2^Set3)-(Set1&Set2&Set3)
+print(f"Set of elements that is only present in two set is {set_onlyintwo}")
+
+#Finding elements common in set1 and range 1 to 10
+print("Part d")
+new_set1 = set()
+for n in range(1,11):
+    new_set1.add(n)
+not_common_1 = new_set1- Set1
+print(f"set of all integers in the range 1 to 10 that are not in Set1 {not_common_1}")
+
+#Finding elements common in sets 1,2,3 and range 1 to 10
+print("Part e")
+new_set2 = set()
+for n in range(1,11):
+    new_set2.add(n)
+not_common_2 = new_set2 - (Set1|Set2|Set3)
+print(f"set of all integers in the range 1 to 10 that are not in Set1 and Set2 and Set3 {not_common_2}")
+
+############################################################################################################################
